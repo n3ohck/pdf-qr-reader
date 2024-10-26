@@ -1,0 +1,8 @@
+PyPDF2 
+pdf2image 
+opencv-python 
+pyzbar
+numpy
+flask
+python-dotenv
+selenium
