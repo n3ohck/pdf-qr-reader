@@ -44,7 +44,7 @@ class ReaderClass:
         self.file.save(temp_pdf_path)
         
         try:
-            pages = convert_from_path(temp_pdf_path, 300, poppler_path=r'C:\poppler-24.08.0\Library\bin')
+            pages = convert_from_path(temp_pdf_path, 300, poppler_path=r'/usr/bin/')
         except Exception as e:
             raise ValueError(f"Error al convertir el PDF: {str(e)}. Asegúrese de que Poppler esté instalado y que la ruta en PLOOPER_PATH sea correcta.")        
        
